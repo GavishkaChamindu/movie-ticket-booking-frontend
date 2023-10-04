@@ -1,0 +1,70 @@
+/* Define your styles here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Add your desired background color */
+  color: #fff; /* Add your desired text color */
+  padding: 10px;
+  
+}
+
+
+.nav-center
+{
+  flex: 1;
+  text-align: center;
+}
+
+
+.nav-right{
+  display: flex;
+  gap: 10;
+}
+
+.book-ticket{
+ margin-right: 30px;
+}
+
+
+
+
+
+
+.image{
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 5;
+
+  }
+  
+  .nav-left,
+  .nav-center,
+  .nav-right {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
